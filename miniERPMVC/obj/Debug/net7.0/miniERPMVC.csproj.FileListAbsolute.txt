@@ -254,3 +254,4 @@ C:\Users\Isaque\Desktop\miniERPMVC\miniERPMVC\obj\Debug\net7.0\miniERPMVC.genrun
 C:\Users\Isaque\Desktop\miniERPMVC\miniERPMVC\obj\Debug\net7.0\ref\miniERPMVC.dll
 C:\Users\Isaque\Desktop\miniERPMVC\miniERPMVC\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
 C:\Users\Isaque\Desktop\miniERPMVC\miniERPMVC\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Isaque\Desktop\miniERPMVC\miniERPMVC\obj\Debug\net7.0\miniERPMVC.sourcelink.json

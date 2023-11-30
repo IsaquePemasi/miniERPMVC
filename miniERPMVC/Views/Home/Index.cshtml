@@ -2,18 +2,72 @@
     ViewData["Title"] = "Home Page";
 }
 
-Construa um MiniERP, que deve conter utilizando o Entity Framework:
-<br />
--Cadastro de produtos (vincular a 1 fornecedor)
-<br />
--Cadastro de Fornecedores
-<br />
--Cadastro de clientes
-<br />
--Lançamento de nota (vincular ao cliente e aos produtos - N X N)
-<br />
--Use seus conhecimentos para decidir aos atributos e como as telas irão de comportar.
-<br />
-Plus: gerar PDF da nota
-<br />
-
+<header>
+    @*carrousel*@
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        @*primeiro slide, do carrousel*@
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="~/images/entregadora-lendo-dados-em-um-computador-enquanto-se-comunica-no-celular-no-escritorio.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><strong class="carrousel">Fornecedores</strong></h5>
+                    <p>
+                        <strong class="carrousel">
+                            Fornecedores são pessoas ou empresas que fornecem produtos ou serviços para outras empresas ou consumidores. Eles podem ser classificados em diferentes tipos, como fornecedores diretos, indiretos, locais, nacionais ou internacionais. Os fornecedores são importantes para o funcionamento de qualquer negócio, pois afetam a qualidade, o custo e a disponibilidade dos bens ou serviços oferecidos.
+                        </strong>
+                    </p>
+                </div>
+            </div>
+            @*segundo slide, do carrousel*@
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/images/armazem-de-embalagens-de-papelao-empilhando-caixas-para-transporte-geradas-por-ia.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><strong class="carrousel">Produtos</strong></h5>
+                    <p>
+                        <strong class="carrousel">
+                            Produtos são bens ou serviços que satisfazem as necessidades ou desejos dos consumidores. Eles podem ser tangíveis, como roupas, alimentos ou livros, ou intangíveis, como educação, saúde ou entretenimento. Os produtos podem ser diferenciados por suas características, como design, funcionalidade, durabilidade ou marca. Os produtos são o resultado da transformação de recursos, como matéria-prima, mão de obra ou capital, em valor agregado para o mercado.
+                        </strong>
+                    </p>
+                </div>
+            </div>
+            @*terceiro slide, do carrousel*@
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/images/engenheiro-feliz-e-jovem-trabalhador-negro-apertando-as-maos-enquanto-cumprimenta-no-edificio-industrial.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><strong class="carrousel">Clientes</strong></h5>
+                    <p>
+                        <strong class="carrousel">
+                            Clientes são pessoas ou organizações que compram ou utilizam os produtos ou serviços de uma empresa. Eles podem ser divididos em diferentes segmentos, como clientes individuais, corporativos, governamentais ou institucionais. Os clientes são essenciais para o sucesso de qualquer empresa, pois geram receita, lucro e fidelidade. Os clientes podem ser atraídos e retidos por meio de estratégias de marketing, como pesquisa, segmentação, posicionamento, preço, distribuição, promoção e pós-venda.
+                        </strong>
+                    </p>
+                </div>
+            </div>
+            @*quarto slide, do carrousel*@
+             <div class="carousel-item">
+                <img class="d-block w-100" src="~/images/closeup-de-economista-usando-calculadora-ao-passar-por-contas-e-impostos-no-escritorio.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5><strong class="carrousel">Notas fiscais</strong></h5>
+                    <p>
+                        <strong class="carrousel">
+                            Notas fiscais são documentos que comprovam a realização de uma operação comercial, como a venda de um produto ou a prestação de um serviço. Elas contêm informações sobre os envolvidos na transação, como os dados do emitente, do destinatário, da mercadoria ou do serviço, do valor, do imposto e da forma de pagamento. As notas fiscais são importantes para a fiscalização tributária, a contabilidade e o controle financeiro das empresas e dos consumidores.
+                        </strong>
+                    </p>
+                </div>
+            </div>  
+            @*botões do carrousel*@
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+        @*divisor de linhas*@
+        <hr class="featurette-divider">
+</header>
